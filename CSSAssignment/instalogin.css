@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 20px 0px 40px;
+    font-family:cursive;
+}
+.form{
+    width: 350px;
+    margin: 15px auto;
+    border: 1px solid rgba(199, 198, 198, 0.687);
+    padding: 10px 40px;
+}
+input{
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 4px;
+}
+input::placeholder{
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 7px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #5aa5f7;
+    border-radius: 7px;
+}
+#line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #8e8e8e; /* Light gray color for the "OR" */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#line::before,
+#line::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ccc; /* Light gray line */
+    margin: 0 10px; /* Spacing around the "OR" */
+}
+
+#log{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#log a{
+    color: #1479e6;
+    text-decoration: none;
+}
+#log a:hover{
+    color:#03203e;
+}
+#pass{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#pass a{
+    color: #0e243b;
+    text-decoration: none;
+}
+#tail{
+    text-align: center;
+    border: 1px solid rgba(199, 198, 198, 0.687);
+    margin: auto;
+    width: 350px;
+    padding: 20px 40px;
+}
+#tail a{
+    color: #1479e6;
+    text-decoration: none;
+}

@@ -1,0 +1,101 @@
+.table0{
+    width: 65%;
+    height: 300px;
+}
+.table0,.table0 tr,.table0 td, .table0 th{
+    border: 2px solid rgb(239, 244, 249);
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+.table0 tr:first-child{
+    background-color: rgb(75, 153, 221);
+    color :aliceblue;
+}
+.table0 tr:nth-child(even){
+    background-color:  rgb(175, 205, 230);
+}
+.table0 tr:last-child{
+    background-color:rgb(75, 153, 221);
+    color :aliceblue;
+}
+.table0 tr:nth-child(odd):hover{
+    background-color:  rgb(95, 178, 245);
+}
+
+.table1{
+    width: 60%;
+}
+.table1, .table1 tr, .table1 td, .table1 th{
+    border: 2px solid rgb(225, 182, 182);
+    border-collapse: collapse;
+}
+.table1 tr:first-child{
+    background-color:#f18b37 ;
+    color:azure;
+}
+.table1 td:nth-child(even){
+    background-color: #f59f74d9;
+}
+.table1 tr:nth-child(even):hover{
+    background-color: #f36c28d9;
+}
+.food-image1{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 50%;   
+}
+.food-image2{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 50%;   
+}
+.food-image2:hover{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 0px 0px 60px 60px;   
+}
+.food-image3{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 15px 50px; 
+}
+.food-image4{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 80px 0px 80px 80px; 
+}
+#food:hover{
+    width: 150px;               
+    height: 150px;           
+    border-radius: 50%;
+    filter: blur(0.2rem);
+}
+
+
+.table2{
+    width: 70%;
+    height: 400px;
+}
+.table2, .table2 tr,.table2 th, .table2 td{
+    border: 2px solid rgb(177, 114, 114);
+    border-collapse: collapse;
+    border-style:inset;
+}
+.table2 tr:first-child{
+    background-color: rgb(235, 58, 58);
+    color:aliceblue;
+}
+.table2 tr:nth-child(even){
+    color:rgb(167, 224, 205);
+    background-color: rgb(161, 84, 84);
+}
+#break{
+    background-color: rgb(243, 128, 128);
+    color: black;
+}
+#break:hover{
+    color:blanchedalmond;
+    background-color: rgb(242, 55, 17);
+    letter-spacing: 5px;
+    text-decoration:underline;
+}

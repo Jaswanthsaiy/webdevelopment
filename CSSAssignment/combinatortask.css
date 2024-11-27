@@ -1,0 +1,22 @@
+div >p{
+    color: red;
+    border: 2px dotted green;
+}
+h1{
+    border:2px double;
+}
+div +h1{
+    border: 2px double plum;
+}
+div ~ p{
+    border: 2px ridge blue;
+}
+section~p{
+    background-color: blue;
+}
+section+p{
+    text-align: center;
+}
+section>p{
+    text-align: right;
+}

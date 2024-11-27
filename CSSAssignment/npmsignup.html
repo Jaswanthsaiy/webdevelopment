@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./npmsignup.css">
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <svg viewBox="0 0 780 250" aria-hidden="true"><path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z" stroke-width="5" stroke="#f7f7f7"></path></svg>
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <form action="">
+                <label for="username">Username *</label>
+                <input type="text" id="username" name="username" placeholder="" required>
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+                <p class="info-text">Your email address will be added to the metadata of packages that you publish, so it may be seen publicly.</p>
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" placeholder="" required>
+                <p class="info-text">Minimum of 10 characters and must meet our password guidelines.</p>
+                <div class="show-password">
+                    <input type="checkbox" id="show-password">
+                    <label for="show-password">Show Password</label>
+                </div>
+                <button type="submit" class="signup-btn">Create an Account</button>
+            </form>
+            <p class="signin-prompt">Already have an account? <a href="#">Sign In</a></p>
+        </div>
+    </div>
+</body>
+</html>

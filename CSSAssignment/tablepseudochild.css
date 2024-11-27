@@ -1,0 +1,20 @@
+table{
+    width: 40%;
+    border-bottom: 1px solid black; 
+    
+}
+table,th,td{
+  /* border: 2px solid whitesmoke; */
+ border-collapse: collapse;
+
+}
+table tr:first-child{
+    background-color:aqua;
+ 
+}
+table tr:nth-child(even){   
+    background-color: rgba(220, 220, 220, 0.322);
+}
+table tr:nth-child(even):hover{
+    background-color: antiquewhite;
+}

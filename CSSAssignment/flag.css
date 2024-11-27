@@ -1,0 +1,29 @@
+.flag{
+    height:105px;
+    width: 500px;
+}
+#orange{
+    background-color: rgba(255, 104, 26,1);
+  
+}
+
+#green{
+    background-color: rgba(0, 106, 53, 1);
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 180px;
+}
+button{
+    color: rgb(47, 112, 231);
+    background-color: aquamarine;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    /* background: transparent; */
+}
+button:hover{
+    background-color: greenyellow;
+    
+}
